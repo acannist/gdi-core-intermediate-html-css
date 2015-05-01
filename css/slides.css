@@ -23,10 +23,11 @@ pre.massive code {
 /* line 9, source/slides.css */
 ul.browsers { list-style: none; }
 ul.browsers li { float: left; display: inline-block; }
-ul.browsers li img { background: transparent; border: 0; box-shadow: none; width: 100px; }
+ul.browsers li img { background: transparent; border: 0; box-shadow: none; width: 100px; display: block; }
 ul.vendor-prefixes { list-style: none; }
 ul.vendor-prefixes li { float: left; display: inline-block; margin-right: 50px; text-align: center; }
-ul.vendor-prefixes li img { background: transparent; border: 0; box-shadow: none; height: 70px; margin: 20px auto 20px; }
+ul.vendor-prefixes li img { background: transparent; border: 0; box-shadow: none; height: 70px; margin: 20px auto 20px; display: block; }
+
 li.chrome {
   list-style-image: url('../images/chrome.svg');
 }
